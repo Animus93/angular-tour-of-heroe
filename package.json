@@ -1,12 +1,10 @@
 {
-  "homepage" : "https://animus93.github.io/angular-tour-of-heroes",
+  "homepage": "https://animus93.github.io/angular-tour-of-heroes",
   "name": "angular-tour-of-heroes",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -31,7 +29,6 @@
     "@angular/cli": "~16.0.0",
     "@angular/compiler-cli": "^16.0.0",
     "@types/jasmine": "~4.3.0",
-    "gh-pages": "^5.0.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
